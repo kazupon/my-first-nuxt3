@@ -1,4 +1,4 @@
 <template>
   {{ $route.params.group }}
-  {{ $route.params.userid }}
+  {{ $route.params.id }}
 </template>
