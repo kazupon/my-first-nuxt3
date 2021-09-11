@@ -7,5 +7,8 @@
   },
   "devDependencies": {
     "nuxt3": "latest"
+  },
+  "dependencies": {
+    "vue-i18n": "^9.2.0-beta.3"
   }
 }

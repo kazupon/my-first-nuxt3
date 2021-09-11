@@ -9,13 +9,13 @@
     <button class="blue" @click="dynamic = Math.random() * 100">
       Click me
     </button>
+
     <h1>This header is injected with app.vue</h1>
     <NuxtPage />
   </div>
 </template>
 
 <script>
-import { ref } from 'vue'
 export default {
   setup() {
     const dynamic = ref(49)
